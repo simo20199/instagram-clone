@@ -18,8 +18,9 @@ gem 'puma', '~> 4.1'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 6'
 
-gem 'dotenv-rails', groups: [:development, :test]
-
+gem 'carrierwave', '~> 1.2'
+gem 'cloudinary', '~> 1.9.1'
+gem 'dotenv-rails', groups: %i[development test]
 
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
