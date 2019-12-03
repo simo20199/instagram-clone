@@ -7,7 +7,17 @@ class Account < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :posts
 
+  mount_uploader :image, ImageUploader
+
   def full_name
     "#{first_name} #{last_name}"
+  end
+
+  def total_followers
+   0
+  end
+
+  def total_following
+    0
   end
 end
