@@ -20,4 +20,5 @@ class Account < ApplicationRecord
   def total_following
     0
   end
+
 end
